@@ -1,0 +1,145 @@
+/*!
+ * cssSet xjb v1.0
+ *
+* 2016-6-29
+ * Copyright 2016 xi
+ *
+ * Designed and built with all the love in the world by xixixi.
+ */
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* 除去移动web点击框线问题 */
+div,a,button,input,li{
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent;
+        tap-highlight-color:transparent;
+}
+a, img {
+    touch-callout: none;
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+    height: 100%;
+}
+body {
+  line-height:1;
+  font-size:11px;
+  font-family:"微软雅黑";
+}
+:focus {
+  outline: 1;
+}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul,ul, ul li {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.clear {
+     clear: both;
+     height:1px;
+     margin-top:-1px;
+     overflow:hidden;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+.fl{ float:left;}
+.fr{ float:right;}
+.txtLeft{ text-align: left;}
+.txtRight{text-align: right;}
+.txtCenter{text-align: center;}
+.displaynone{ display: none;}
+input, select {
+    vertical-align:middle;
+}
+.mtb30{ margin:30px 0;}
+.mtb20{ margin:20px 0;}
+.mb1{ margin-bottom:1em;}
+.mt6{ margin-top:6em;}
+.mt3{ margin-top: 3em;}
+.mt2{ margin-top:1em;}
+.mb6{ margin-bottom:6em;}
+.mgr5{ margin-right: 5%;}
+.pb3{ padding-bottom:3em;}
+.pt3{ padding-top: 3em;}
+.bordersizing{
+          box-sizing:border-box;
+     -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+
